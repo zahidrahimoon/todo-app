@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Next.js Fullstack Todo Application
 
-## Getting Started
+This is a full-stack Todo application built using [Next.js](https://nextjs.org/), which allows users to add, delete, and mark tasks as completed. The application also features a 🌞 **day** and 🌜 **night** toggle bar and 📑 **task sorting** functionality by title. The backend is powered by MongoDB for database management, and the frontend is styled using Tailwind CSS, with notifications handled by Toastify.
 
-First, run the development server:
+## 🚀 Features
+
+- ➕ **Add new tasks** to the todo list
+- ❌ **Delete tasks** from the list
+- ✅ **Mark tasks as complete** or incomplete
+- 🔠 **Sort tasks alphabetically** by title
+- 🌗 **Toggle between day and night modes** for improved user experience
+- 🔄 **Real-time updates** without page reloads
+
+## 🛠 Tech Stack
+
+- 🖥 **Next.js** - Full-stack framework for React applications
+- 🗄 **MongoDB** - NoSQL database for storing todos
+- 🎨 **Tailwind CSS** - Utility-first CSS framework for styling
+- 🔔 **Toastify** - For displaying notifications
+- ⚛️ **React** - For building the user interface
+
+## 🏁 Getting Started
+
+First, clone the repository and install the necessary dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +41,11 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📚 Learn More
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To learn more about Next.js, check out the following resources:
 
-## Learn More
+- 📖 [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- 🎓 [Learn Next.js](https://nextjs.org/learn) - Interactive Next.js tutorial.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
