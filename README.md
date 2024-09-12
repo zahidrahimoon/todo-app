@@ -19,6 +19,12 @@ This is a full-stack Todo application built using [Next.js](https://nextjs.org/)
 - 🔔 **Toastify** - For displaying notifications
 - ⚛️ **React** - For building the user interface
 
+## 🚀 Project View 
+- [ViewWhite](https://github.com/zahidrahimoon/todo-app/blob/master/Screenshots/ViewTodo.PNG)
+- [viewBlack](https://github.com/zahidrahimoon/todo-app/blob/master/Screenshots/blackViewTodo.PNG)
+- [addBlack](https://github.com/zahidrahimoon/todo-app/blob/master/Screenshots/blackaddTodo.PNG)
+- [addWhite](https://github.com/zahidrahimoon/todo-app/blob/master/Screenshots/addTodo.PNG)
+
 ## 🏁 Getting Started
 
 First, clone the repository and install the necessary dependencies:
